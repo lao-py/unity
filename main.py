@@ -72,7 +72,7 @@ def start():
     else:
 	if oss == '1':
             os.system('clear')
-        elif oss == '2':
+	elif oss == '2':
             os.system('cls')
         s = Figlet(font='standard')
         print(s.renderText('Starting Unity'))
