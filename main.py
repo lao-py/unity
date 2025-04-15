@@ -70,10 +70,6 @@ def start():
     if oss != '1' and oss != '2':
         exit()
     else:
-	if oss == '1':
-            os.system('clear')
-	elif oss == '2':
-            os.system('cls')
         s = Figlet(font='standard')
         print(s.renderText('Starting Unity'))
         print('Wait, please...')
